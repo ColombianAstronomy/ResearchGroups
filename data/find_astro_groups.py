@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 import sys
 
+# TODO: Buscar key-words:  Espacio y Cosmologia
+
 if __name__ == "__main__":
     fname = sys.argv[1]
     data = pd.read_csv(fname)
